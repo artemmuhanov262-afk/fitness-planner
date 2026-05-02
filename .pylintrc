@@ -1,0 +1,27 @@
+[MASTER]
+ignore=venv, migrations, tests
+max-line-length=120
+
+[MESSAGES CONTROL]
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    R0903,  # too-few-public-methods
+    R0913,  # too-many-arguments
+    R0914,  # too-many-locals
+    W0622,  # redefined-builtin
+    W0718,  # too-many-arguments
+
+[FORMAT]
+indent-string='    '
+max-line-length=100
+
+[BASIC]
+good-names=i,j,k,ex,db,id,ok,fp,_,pk,app,day,ex,set,log,reps,set_log,SetLog
+
+[DESIGN]
+max-args=6
+max-locals=15
+max-returns=6
+max-branches=15
