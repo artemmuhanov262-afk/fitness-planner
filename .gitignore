@@ -1,0 +1,31 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# База данных
+*.db
+*.sqlite
+
+# Секреты
+.env
+
+# Тесты
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Отчёты
+pylint.txt
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
